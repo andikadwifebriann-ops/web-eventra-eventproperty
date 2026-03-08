@@ -1,11 +1,11 @@
 <?php
-// ============================================================
+
 // api/pesanan.php — CRUD Pesanan
 // GET    ?kode= / ?status= / ?cari=
 // POST   { body }   → buat pesanan baru
 // PUT    { kode, status }
 // DELETE ?kode=
-// ============================================================
+
 require_once 'koneksi.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
