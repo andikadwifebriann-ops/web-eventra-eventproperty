@@ -1,8 +1,6 @@
 <?php
-// ============================================================
+
 // api/config.php — Konfigurasi Aplikasi EVENTRA
-// ⚠️  JANGAN upload file ini ke server publik / GitHub
-// ============================================================
 
 // ── Database ─────────────────────────────────────────────────
 define('DB_HOST', 'localhost');   // Hosting: biasanya 'localhost'
