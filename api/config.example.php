@@ -1,9 +1,6 @@
 <?php
-// ============================================================
+
 // api/config.example.php
-// RENAME file ini menjadi config.php lalu isi nilainya
-// File config.php TIDAK akan ter-upload ke GitHub (.gitignore)
-// ============================================================
 
 define('DB_HOST', 'localhost');   // Contoh: 'localhost'
 define('DB_USER', 'root');        // Contoh XAMPP: 'root'
