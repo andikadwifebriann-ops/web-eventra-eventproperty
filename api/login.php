@@ -1,9 +1,9 @@
 <?php
-// ============================================================
+
 // api/login.php — Autentikasi Admin
 // POST { username, password }
 // Returns { sukses, pesan, username, nama }
-// ============================================================
+
 require_once 'koneksi.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
