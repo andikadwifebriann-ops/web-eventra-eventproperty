@@ -1,11 +1,11 @@
 <?php
-// ============================================================
+
 // api/produk.php — CRUD Produk
 // GET    ?kat=   → semua / filter kategori
 // POST           → tambah produk baru
 // PUT            → edit produk
 // DELETE ?id=    → nonaktifkan produk
-// ============================================================
+
 require_once 'koneksi.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
