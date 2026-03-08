@@ -1,9 +1,9 @@
 <?php
-// ============================================================
+
 // api/ganti_password.php — Ganti Password Admin
 // POST { username, password_lama, password_baru, konfirmasi }
 // Returns { sukses, pesan }
-// ============================================================
+
 require_once 'koneksi.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
